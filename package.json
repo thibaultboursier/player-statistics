@@ -2,20 +2,30 @@
   "name": "player-statistics",
   "version": "0.1.0",
   "private": true,
+  "description": "Simple project that displays player statistics",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.21",
+    "@fortawesome/free-solid-svg-icons": "^5.10.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
     "@types/jest": "24.0.17",
     "@types/node": "12.7.2",
     "@types/react": "16.9.2",
     "@types/react-dom": "16.8.5",
+    "bootstrap": "^4.3.1",
     "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.11",
     "react-dom": "^16.9.0",
+    "react-hooks-async": "^3.3.0",
     "react-scripts": "3.1.1",
+    "react-test-renderer": "^16.9.0",
     "typescript": "3.5.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -32,5 +42,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/react-hooks": "^2.0.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "react-app-rewired": "^2.1.3"
   }
 }
